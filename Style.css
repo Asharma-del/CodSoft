@@ -1,0 +1,601 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(15, 8, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    display:  flex;
+    position: absolute;
+    right: 40px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+   width: 100%;
+   cursor: pointer;
+}
+.span{
+    position: fixed;
+    right: 580px;
+}
+.underline{
+    background-color: #ff004f; height: 3px; width: 20px; position: absolute; right: 560px; top: 46px;
+}
+.first{
+    position: fixed; right:  460px;
+}
+.second{
+    position: fixed; right: 350px;
+} 
+.third{
+    position: fixed; right: 240px;
+}
+.fourth{
+    position: fixed; right: 150px;
+}
+.fifth{
+    position: fixed; right: 50px;
+}
+/*.container h2{
+    position: absolute;
+     left: 50px; 
+     margin-top: 20px; 
+     padding-top: 20px; 
+     color: #fff; 
+     font-size: 90px; 
+     position: fixed;
+}*/
+.aboutme{
+    margin-top: 100px; 
+    font-size: 80px;
+    justify-content: center;
+    color: #fff;
+}
+.header-text{  
+    margin: 10%;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+}
+.header-text h1{
+     margin: 20px;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+}
+.tab-title{
+    position: absolute;
+    left: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 1002px;
+    font-size: 30px;
+   justify-content: space-between;
+
+}
+.tab-link{
+    padding: 50px;
+    margin: 50px;
+}
+.tab-contain{
+ position: absolute;
+ left: 510px;
+ top: 1130px;
+ margin: 3px;
+}
+.tab-contain2{
+    position: absolute;
+    left: 760px;
+    top: 1130px;
+    margin: 3px;
+}
+.tab-contain3{
+    position: absolute;
+    left: 1100px;
+    top: 1130px;
+    margin: 3px;
+}
+#container h2{
+    position: absolute; 
+    left: 50px; 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    color: #fff; 
+    font-size: 30px; 
+    position: fixed;
+}
+
+#container div{
+    background: linear-gradient( to right, red,rgb(248, 39, 39),rgb(248, 198, 16)); 
+    height: 3px; 
+    width: 200px;
+}
+.tab-contain .active-tab{
+    display: block;
+}
+.tab-contain2{
+    display: none;
+}
+
+.tab-contain3{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.eddu{
+    color: white; margin: 40px; padding: 40px; font-size: 80px;
+}
+.box{
+    margin: 30px;
+    padding: 30px;
+    background-color: rgb(33, 31, 31);
+    border-radius: 6px;
+    height: 400px;
+    width: 300px;
+    color: white;
+}
+
+.box img{
+    height: 80px;
+    width: 80px;
+}
+.box2{
+   
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(33, 31, 31);
+    border-radius: 6px;
+    height: 400px;
+    width: 400px;
+    color: white;
+}
+.box2:hover:hover{
+    background-color: #1c4ccf;
+    transition: all 0.5s;
+    height: 410px;
+    width: 410px;
+}
+
+.box:hover{
+    background-color: #1c4ccf;
+    transition: all 0.5s;
+    height: 410px;
+    width: 310px;
+}
+.box2 img{
+    height: 80px;
+    width: 80px;
+}
+.kkk{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+.kkk img{
+   height: 80px;
+   width: 68px;
+   margin: 30px ;
+   padding:  30px;
+}
+#header{
+    height: 700px;
+    
+    
+    
+}
+#header h1{
+    color: #fff;
+     font-size: 80px;
+      position: absolute; 
+      top: 230px;
+      left: 80px;
+}
+#header img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    position: absolute;
+    right: 80px;
+    top: 200px;
+    box-shadow: 4px 3px 2px 5px  #1c4ccf;
+    cursor: pointer;
+    
+}
+#about{
+    height: 700px;
+    display: flex;
+    color: rgb(239, 237, 232);
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+#about img{
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 2px  #f8f6f7;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.title{
+    position: relative;
+    top: 70px;
+}
+.main{
+    height: 600px;
+    color: #fff;
+    
+}
+#Myskill{
+    height: 800px;
+}
+
+#Myskill h1{
+    color: white; font-size: 80px; margin: 40px; padding: 40px; 
+}
+#skill{
+    display: flex;
+    width: 95vw;
+    background-color: yellow;
+    height: 2px;
+    margin: 30px 0;
+    color: #fff;
+   
+}
+.vertical{
+   height: 93px;
+   background-color: yellow;
+   width: 1px;
+   margin: 0px 100px;
+}
+.vertical img{
+    position: relative;
+    top: -30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+#project{
+    height: 600px;
+
+   
+}
+
+.item{
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(33, 31, 31);
+    border-radius: 6px;
+    height: 150px;
+    width: 75px;
+
+}
+.item:hover{
+    background-color: #1c4ccf;
+    transition: all 0.5s;
+    height: 210px;
+    width: 210px;
+}
+.item img{
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+ .text{
+        position: relative;
+        top: 75px;
+        width: 500px;
+        font-size: 6px;
+ }
+ .item{
+  margin: 30px;
+  padding:30px;
+  background-color: rgb(33, 31, 31);
+  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+  color: #fff;
+  box-shadow: 2px 2px 2px 2px #fff;
+
+}
+.blue{
+    color: #1c4ccf;
+}
+.item img{
+  height: 290px;
+  width: 390px;
+  border-radius: 10px;
+}
+
+.text{
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 12px;
+}
+
+.footer{
+ 
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  left: 550px;
+margin: 2px 0px;
+ 
+
+
+}
+span{
+    color: #ff004f;
+}
+#expe h1{
+    margin: 80x; 
+    padding: 80px; 
+    font-size: 80px; 
+    color: #fff;
+}
+#project h1{
+    color: white;
+     font-size: 80px; 
+     margin: 30px; 
+     padding: 30px;
+}
+.last{
+  background-color: #332f31;
+  height: 80px;
+}
+.img img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+.img img:hover{
+     height: 40px;
+     width: 40px;
+     background-color: blue;
+}
+
+@media only screen and (max-width : 600px){
+    #header{
+        height: 500px;
+       
+    }
+     h1{
+        font-size: 10px;
+    }
+    nav ul{
+    display:  flex;
+    position: absolute;
+   
+   
+    }
+
+.span{
+   
+   left: 2px;
+   top: 60px;
+}
+.underline{
+    background-color: #ff004f; height: 1.5px; width: 20px; position: absolute; 
+}
+.first{
+   left: 50px;
+   top: 60px;
+}
+.second{
+    left: 100px;
+    top: 60px;
+    
+}
+.third{
+    left: 160px;
+    top: 60px;
+}
+.fourth{
+  left: 220px;
+  top: 60px;
+}
+.fifth{
+   right: 30px;
+   top: 60px;
+}
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+        position: absolute;
+        margin: 1px;
+        padding: 1px;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: #ff004f;
+        position: absolute;
+        left: 0px;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    
+    nav ul li a:hover::after{
+       width: 100%;
+       cursor: pointer;
+    }
+    #header img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        position: absolute;
+        right: 60px;
+        top: 270px;
+    }
+    
+    #about{
+        height: 400px;
+    }
+    .aboutme{
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 80px;
+        color: #fff;
+    }
+    #about img{
+       display: none;
+    }
+    #about p{
+        font-size: 12px;
+        padding: 10px;
+        margin: 10px;
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .eddu{
+        color: #fff; 
+        margin-top: 100px;
+        margin-left: 15px;
+          font-size: 40px;
+    }
+    #expe h1{
+        margin-top: 80px;
+        margin-left: 15px;  
+        font-size: 40px; 
+        color: #fff;
+    }
+    #project h1{
+        color: #fff;
+         font-size: 40px; 
+         margin-top: 150px; 
+         margin-left: 15px;
+    }
+    #Myskill h1{
+        color: white; font-size: 40px; margin: 15px; 
+    }
+    .vertical{
+        display: flex;
+    }
+    #skill{
+        display: flex;
+        width: 95vw;
+        background-color: yellow;
+        height: 2px;
+        margin: 30px 0;
+        color: #fff;
+        
+    }
+    #Myskill{
+        height: 250px;
+    }
+    
+    .vertical{
+       height: 93px;
+       background-color: yellow;
+       width: 1px;
+       margin: 0px 20px;
+    }
+    .vertical img{
+        position: relative;
+        top: 60px;
+        height: 30px;
+        width: 30px;
+        border-radius: 20px;
+    }
+    #container h2{
+        position: absolute; 
+        left: 5px; 
+        margin-top: 20px; 
+        padding-top: 20px; 
+        color: #fff; 
+        font-size: 20px; 
+        position: fixed;
+    }  
+    #container div{
+        background: linear-gradient( to right, red,rgb(248, 39, 39),rgb(248, 198, 16)); 
+        height: 3px; 
+        width: 135px;
+    }
+
+    #header h1{
+        color: #fff;
+         font-size: 30px;
+          position: absolute; 
+          top: 120px;
+        text-align: center;
+    }
+    .id{
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+    }
+    #project{
+        height:  1450px;
+    }
+    #skill{
+        display: flex;
+        flex-direction: row;
+    }
+    #skill .title{
+        display: none;
+    }
+    #skill .text{
+        display: none;
+    }
+    .container{
+        justify-content: center;
+    }.footer{
+ 
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        left: 50px;
+        margin: 2px 0px;
+      }
+    
+
+
+}
+
+    
